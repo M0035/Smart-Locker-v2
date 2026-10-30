@@ -1,0 +1,65 @@
+#header {
+  background-color: #11999e; 
+  text-align: center; /* 单元格文本居中 */
+  color: white; /* 设置文本颜色为白色 */
+}
+
+table {
+  width: 100%; /* 设置表格宽度为 100% */
+  box-shadow: 0 0 28px rgba(0,0,0,.07); /* 设置表格阴影效果 */
+  text-align: center; /* 单元格文本居中 */
+  margin: 20px auto; /* 设置表格上下外边距为 20px，左右自动居中 */
+  border-collapse: collapse; /* 合并表格边框 */
+}
+
+th, td {
+  padding: 8px; /* 单元格内边距 */
+  border: 1px solid #ddd; /* 设置单元格边框样式和颜色 */
+}
+
+#status {
+  width: 400px; /* 快递柜区域宽度设置为 400px */
+}
+
+#wireway {
+  width: 1px;
+  background: #40514e;
+  border: 2px solid black; /* 设置电线区域边框样式为黑色 2px */
+}
+
+td.small {
+  height: 30px; /* 小型行的高度设置为 30px */
+  border: 2px solid black; /* 小型行设置边框样式为黑色 2px */
+}
+
+td.medium {
+  height: 60px; /* 中型行的高度设置为 60px */
+  border: 2px solid black; /* 中型行设置边框样式为黑色 2px */
+}
+
+td.large {
+  height: 90px; /* 大型行的高度设置为 90px */
+  border: 2px solid black; /* 大型行设置边框样式为黑色 2px */
+}
+
+td.status-free {
+  background: #e4f9f5; /* 快递柜 空闲状态 的样式 */
+}
+
+td.status-occupied {
+  background: #30e3ca; /* 快递柜 占用状态 的样式 */
+}
+
+td.status-use {
+  color: white; /* 使用状态文本颜色为白色 */
+  background: #11999e; /* 快递柜 使用状态 的样式 */
+}
+
+td.status-damaged {
+  background: #40514e; /* 快递柜 损坏状态 的样式 */
+}
+
+td.status-err {
+  background: black; /* 快递柜 异常状态 的样式 */
+  color: white; /* 异常状态文本颜色为白色 */
+}
