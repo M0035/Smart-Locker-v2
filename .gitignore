@@ -1,0 +1,27 @@
+# 数据库及真实数据
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+
+# 构建产物
+*.o
+*.obj
+*.so
+*.a
+*.cgi
+main
+udpServer
+build/
+build-*/
+
+# 本机配置与日志
+*.pro.user
+*.log
+.cache/
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
